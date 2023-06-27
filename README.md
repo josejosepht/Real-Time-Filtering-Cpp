@@ -13,7 +13,7 @@ Here is a brief explanation of the functions defined in the code:
 
 `magnitude`: This function computes the magnitude of gradient vectors at each pixel by combining the results from sobelX3x3 and sobelY3x3.
 
-`blurQuantize: This function applies blurring using blur5x5 and then quantizes the colors of the image by dividing pixel values by a specified bucket size.
+`blurQuantize`: This function applies blurring using blur5x5 and then quantizes the colors of the image by dividing pixel values by a specified bucket size.
 
 `cartoon`: This function generates a cartoon-like effect on an input image by applying blurring and quantization with additional parameters for color levels and magnitude threshold.
 
